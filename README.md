@@ -1,0 +1,10 @@
+# JKE Wallet
+
+JKE Bank decided to offer several simple and innovative banking features (called “JKE Mobile Wallet”) that would help customers to better plan their expenses using mobile devices (mobile app). In order to offer features that would be useful, they first analyzed what are the most frequent situations they have to resolve with their customers and discovered that scheduling payments and writing checks (especially with younger customers) is a challenge because not only it requires manually keeping the balance in the check book but also requires remembering about written checks while using online and mobile banking. In order to accelerate software delivery process, JKE Bank decides to use Bluemix for the development of the Mobile Wallet mobile app. Bluemix is selected in order to leverage PaaS platform advantages, agile development methodology using IBM DevOps Services and also to more effectively involve customers into testing process with Mobile Quality Assurance.
+
+The main features:
+1)	Graphical view of available funds in checking and saving accounts that shows in a bar chart - “Money bar” (we might want to rename it, so it would not be the same as at PNC Bank)
+
+2)	Calendar view of scheduled payments, written checks and expected credits such as paychecks provides the customers with a better insight into their purchasing ability (and also opens an opportunity to plan future expenses better but we might not get to the “Wish list” feature).
+
+3)	The ability to enter (add to calendar) written checks solves the most frequent customer issue with bounced checks and denied debit card or account overdrafts: this is a simple feature but innovative since it eliminate the root cause of the stated issue – having to keep track of account balance and payments in multiple places. Now both the entered into the Mobile Wallet checks and scheduled payments allow the customers see how much of the money is already scheduled to be spent”, so they would not accidentally spend more than they can afford which means no more bounced checks or denied debit card at a store.

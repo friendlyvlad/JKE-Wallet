@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="new server">
+     
+     
+     <featureManager>
+        <feature>jsp-2.2</feature>
+        <feature>localConnector-1.0</feature>
+        <feature>jsf-2.0</feature>
+        <feature>jpa-2.0</feature>
+        <feature>jaxrs-1.1</feature>
+        <feature>cdi-1.0</feature>
+        <feature>ejbLite-3.1</feature>
+        <feature>openidConnectClient-1.0</feature>
+        <feature>wsSecurity-1.1</feature>
+        <feature>appSecurity-2.0</feature>
+        <feature>ssl-1.0</feature>
+    </featureManager>
+     
+     <!-- Enable features
+    <featureManager>
+        <feature>jsp-2.3</feature>
+        <feature>localConnector-1.0</feature>
+        <feature>jsf-2.2</feature>
+        <feature>jpa-2.1</feature>
+        <feature>jaxrs-2.0</feature>
+        <feature>cdi-1.2</feature>
+        <feature>ejbLite-3.1</feature>
+        <feature>openidConnectClient-1.0</feature>
+        <feature>wsSecurity-1.1</feature>
+        <feature>appSecurity-2.0</feature>
+        <feature>ssl-1.0</feature>
+    </featureManager>
+    
+    <featureManager>
+		<feature>jsp-2.3</feature>
+		<feature>localConnector-1.0</feature>
+		<feature>jsf-2.2</feature>
+		<feature>jpa-2.1</feature>
+		<feature>jaxrs-2.0</feature>
+		<feature>cdi-1.2</feature>
+	</featureManager>
+     -->
+     
+     <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
+    <httpEndpoint id="defaultHttpEndpoint"
+    			  host="*"
+                  httpPort="9080"
+                  httpsPort="9443" />
+    <webApplication id="vaadin-jpa-application" location="vaadin-jpa-application.war" name="vaadin-jpa-application">
+        <application-bnd>
+            <security-role name="user">
+                <special-subject type="ALL_AUTHENTICATED_USERS"/>
+            </security-role>
+        </application-bnd>
+    </webApplication>
+</server>
