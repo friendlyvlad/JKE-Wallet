@@ -1,1 +1,2 @@
 These items need to be completed before the end of this quarter:
+1. Integration testing 
