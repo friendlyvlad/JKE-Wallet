@@ -4,3 +4,4 @@ These items need to be completed before the end of this quarter:
 3. System testing
 4. Deployment procedures
 5. Cutover procedure
+6. Testing
